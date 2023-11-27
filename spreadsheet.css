@@ -9,9 +9,21 @@
 }
 .searchbar2 { 
     display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	align-items:center;
     padding: 1vh;
+    row-gap: 5px;
+    
+    
+    
+}
+.searchbar3 {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 1vh;
+    
     
 }
 input{
@@ -28,14 +40,18 @@ input[type=submit]{
     width: 10vh;
     height: 3vh;
     font-size: calc(.1vw + .5rem);
+    border-radius: 2px;
+    margin: 1vh;
+    
     
 
     
 }
 input[type=text]{
-    width: 20vh;
+    width: 30vh;
     height: 3vh;
     font-size: calc(1vw + .5rem);
+
 
 }
 
@@ -75,6 +91,7 @@ h1{
     font-size: calc(1vw + .5rem);
     background: white;
     border: solid black 2px;
+    border-radius: 5px;
     
 }
 
